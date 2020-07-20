@@ -4,8 +4,8 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "build-spa dev",
-    "build": "library build"
+    "dev": "spa dev",
+    "build": "lib build"
   },
   "keywords": [],
   "author": "",
