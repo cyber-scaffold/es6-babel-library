@@ -5,7 +5,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "dev": "spa dev",
-    "build": "lib build"
+    "build": "lib build",
+    "pub": "lib build && lib publish"
   },
   "keywords": [],
   "author": "",
