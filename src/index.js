@@ -1,4 +1,5 @@
+import React from "react";
 
-export default function test_demo() {
-  console.log("test-demo");
+export default function FunctionComponent() {
+  return <div></div>
 };

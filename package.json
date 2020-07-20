@@ -5,13 +5,12 @@
   "main": "./dist/index.js",
   "scripts": {
     "dev": "build-spa dev",
-    "build": "npx babel src --out-dir dist --source-maps=true"
+    "build": "library build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.4.0",
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
@@ -20,6 +19,8 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-plugin-import": "^1.13.0",
+    "eslint": "^7.4.0",
+    "library-core": "file:../library-core",
     "spa-build-core": "file:../spa-build-core"
   },
   "dependencies": {
