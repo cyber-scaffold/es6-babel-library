@@ -4,9 +4,9 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "spa dev",
-    "build": "lib build",
-    "pub": "lib build && lib publish"
+    "dev": "cyber-spa dev",
+    "build": "cyber-lib build",
+    "pub": "cyber-lib build && cyber-lib publish"
   },
   "keywords": [],
   "author": "",
@@ -22,8 +22,8 @@
     "babel-plugin-import": "^1.13.0",
     "eslint": "^7.4.0",
     "eslint-plugin-react": "^7.20.3",
-    "lib-cli": "file:../lib-cli",
-    "spa-cli": "file:../spa-cli"
+    "@cyber/lib-cli": "file:../../cli-tools/lib-cli",
+    "@cyber/spa-cli": "file:../../cli-tools/spa-cli"
   },
   "dependencies": {
     "lodash": "^4.17.19",
