@@ -22,8 +22,8 @@
     "babel-plugin-import": "^1.13.0",
     "eslint": "^7.4.0",
     "eslint-plugin-react": "^7.20.3",
-    "@cyber/lib-cli": "file:../../cli-tools/lib-cli",
-    "@cyber/spa-cli": "file:../../cli-tools/spa-cli"
+    "@cyber-tools/lib-cli": "file:../../cyber-tools/lib-cli",
+    "@cyber-tools/spa-cli": "file:../../cyber-tools/spa-cli"
   },
   "dependencies": {
     "lodash": "^4.17.19",
