@@ -8,7 +8,10 @@
     "build": "cyber-lib build",
     "pub": "cyber-lib build && cyber-lib publish"
   },
-  "keywords": [],
+  "keywords": [
+    "cyber",
+    "shicheng.yu"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
