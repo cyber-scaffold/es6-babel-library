@@ -4,9 +4,8 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "cyber-spa dev",
     "build": "babel src --out-dir dist --source-maps",
-    "pub": "npm run build && cyber-npm publish"
+    "watch": "babel src --out-dir dist --source-maps --watch"
   },
   "keywords": [
     "cyber",
@@ -15,21 +14,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.10.4",
-    "@babel/core": "^7.10.4",
-    "@babel/plugin-proposal-class-properties": "^7.10.4",
-    "@babel/plugin-proposal-decorators": "^7.10.4",
-    "@babel/plugin-transform-runtime": "^7.10.4",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-react": "^7.10.4",
     "@cyber-tools/preset-babel-option": "latest",
-    "@cyber-tools/cyber-npm": "file:../../cyber-tools/packages/cli-tools/cyber-npm",
-    "@cyber-tools/spa-build-tools": "file:../../cyber-tools/packages/build-tools/spa-build-tools",
-    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-css-modules-transform": "^1.6.2",
+    "babel-plugin-file-loader": "^2.0.0",
+    "deep-extend": "^0.6.0",
     "eslint": "^7.4.0",
     "eslint-plugin-react": "^7.20.3"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "lodash": "^4.17.19",
     "moment": "^2.27.0",
     "react": "^16.13.1",
