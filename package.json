@@ -4,6 +4,8 @@
   "description": "",
   "main": "./dist/",
   "scripts": {
+    "start": "pm2 start \"npm run watch\"",
+    "stop": "pm2 stop \"npm run watch\"",
     "build": "babel src --out-dir dist --source-maps",
     "watch": "babel src --out-dir dist --source-maps --watch"
   },
@@ -17,7 +19,8 @@
     "@cyber-tools/preset-babel-option": "latest",
     "deep-extend": "^0.6.0",
     "eslint": "^7.4.0",
-    "eslint-plugin-react": "^7.20.3"
+    "eslint-plugin-react": "^7.20.3",
+    "pm2": "^4.5.1"
   },
   "dependencies": {
     "lodash": "^4.17.19",
