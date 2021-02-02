@@ -2,10 +2,10 @@
   "name": "es6-babel-library",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/",
+  "main": "./",
   "scripts": {
-    "build": "babel src --out-dir dist --source-maps",
-    "watch": "babel src --out-dir dist --source-maps --watch"
+    "build": "del dist && babel src --out-dir dist --source-maps",
+    "watch": "del dist && babel src --out-dir dist --source-maps --watch"
   },
   "keywords": [
     "cyber",
@@ -15,11 +15,13 @@
   "license": "ISC",
   "devDependencies": {
     "@cyber-tools/preset-babel-option": "latest",
-    "deep-extend": "^0.6.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "del-cli": "^3.0.1",
     "eslint": "^7.4.0",
     "eslint-plugin-react": "^7.20.3"
   },
   "dependencies": {
+    "deep-extend": "^0.6.0",
     "lodash": "^4.17.19",
     "moment": "^2.27.0",
     "uuid": "^8.2.0"
